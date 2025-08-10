@@ -1,0 +1,58 @@
+{
+  "AI_chatbot": [
+    {
+      "patentNo": "10-2023-0123456",
+      "title": "인공지능 기반 대화형 상담 시스템",
+      "applicant": "네이버 주식회사",
+      "status": "등록",
+      "applicationDate": "2023-03-15",
+      "claims": ["자연어 처리", "대화 관리", "학습 알고리즘"],
+      "riskLevel": "HIGH",
+      "summary": "챗봇 인터페이스를 통한 고객 상담 자동화 시스템"
+    },
+    {
+      "patentNo": "10-2022-0098765",
+      "title": "AI 기반 음성인식 대화형 인터페이스",
+      "applicant": "삼성전자 주식회사",
+      "status": "등록",
+      "applicationDate": "2022-08-10",
+      "claims": ["음성인식", "자연어이해", "대화생성"],
+      "riskLevel": "MEDIUM",
+      "summary": "음성을 통한 AI 대화 시스템"
+    }
+  ],
+  "fitness_app": [
+    {
+      "patentNo": "10-2023-0234567",
+      "title": "AI 개인 맞춤형 운동 추천 시스템",
+      "applicant": "한국스포츠과학원",
+      "status": "심사중",
+      "applicationDate": "2023-06-20",
+      "claims": ["운동 데이터 분석", "개인화 추천", "건강 모니터링"],
+      "riskLevel": "HIGH",
+      "summary": "사용자 데이터 기반 맞춤형 운동 프로그램 추천"
+    },
+    {
+      "patentNo": "10-2022-0147852",
+      "title": "웨어러블 기기 연동 운동 측정 방법",
+      "applicant": "LG전자 주식회사",
+      "status": "등록",
+      "applicationDate": "2022-11-05",
+      "claims": ["센서 데이터", "운동량 측정", "실시간 피드백"],
+      "riskLevel": "MEDIUM",
+      "summary": "웨어러블 기기를 통한 운동량 측정 및 분석"
+    }
+  ],
+  "food_delivery": [
+    {
+      "patentNo": "10-2023-0345678",
+      "title": "실시간 배달 경로 최적화 시스템",
+      "applicant": "배달의민족",
+      "status": "등록",
+      "applicationDate": "2023-01-25",
+      "claims": ["경로 최적화", "실시간 추적", "배달 알고리즘"],
+      "riskLevel": "HIGH",
+      "summary": "AI를 활용한 배달 경로 최적화 및 시간 단축"
+    }
+  ]
+}

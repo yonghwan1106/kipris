@@ -1,16 +1,23 @@
 import { useState } from 'react';
+import MarkdownRenderer from '../UI/MarkdownRenderer';
 
 export default function MessageBubble({ message, isUser, timestamp, patents }) {
   const [showPatents, setShowPatents] = useState(false);
 
   return (
-    <div className={`flex ${isUser ? 'justify-end' : 'justify-start'} mb-4`}>
-      <div className={`max-w-xs lg:max-w-md px-4 py-2 rounded-lg ${
+    <div className={`flex ${isUser ? 'justify-end' : 'justify-start'} mb-6`}>
+      <div className={`max-w-xs lg:max-w-3xl px-6 py-4 rounded-lg ${
         isUser 
           ? 'bg-primary-600 text-white' 
-          : 'bg-gray-100 text-gray-900'
+          : 'bg-white border border-gray-200 shadow-sm'
       }`}>
-        <div className="text-sm">{message}</div>
+        {isUser ? (
+          <div className="text-sm text-white">{message}</div>
+        ) : (
+          <div className="text-sm">
+            <MarkdownRenderer content={message} />
+          </div>
+        )}
         
         {/* 특허 정보가 있는 경우 표시 */}
         {patents && patents.length > 0 && (
